@@ -67,6 +67,7 @@
       // Docsify configuration
       window.$docsify = {
         alias: {
+          '/.*/_sidebar.md': '/_sidebar.md',
           '.*?/awesome':
             'https://raw.githubusercontent.com/docsifyjs/awesome-docsify/master/README.md',
           '.*?/changelog':
@@ -231,6 +232,10 @@
           loadJS('//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/matomo.min.js');
         }
       })();
+
+      if (typeof navigator.serviceWorker !== 'undefined') {
+        navigator.serviceWorker.register('sw.js')
+      }
     </script>
     <script src="//cdn.jsdelivr.net/npm/vue@2/dist/vue.min.js"></script>
     <!-- <script src="//cdn.jsdelivr.net/npm/vue@3/dist/vue.global.prod.js"></script> -->

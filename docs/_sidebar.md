@@ -23,6 +23,7 @@
   - [Offline Mode (PWA)](pwa.md)
   - [Server-Side Rendering (SSR)](ssr.md)
   - [Embed Files](embed-files.md)
+  - [Guide](guide.md "这是测试标题")
 
 - [Awesome docsify](awesome.md)
 - [Changelog](changelog.md)
