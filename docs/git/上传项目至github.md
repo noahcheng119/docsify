@@ -25,4 +25,6 @@ idea
 
 ![](/Users/noah/github_noah/docsify/docs/git/_images/img_5.png)
 
+![](/Users/noah/github_noah/docsify/docs/git/_images/img_7.png)
+
 
